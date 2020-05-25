@@ -1,0 +1,63 @@
+html, body {
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+
+button{
+    margin: 2px 0;
+    padding: 0px;
+    font-size: 30px;
+    border-style: none;
+}
+
+.calculator{
+    background-color: black;
+    width: 412px;
+    
+}
+
+.visor{
+    width: 412px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: right;
+    padding: 20px 5px;
+}
+
+.orange-button{
+    background-color: #df974c;
+}
+
+.orange-button:hover{
+    background-color: orange;
+}
+
+.grey-button{
+    background-color: #d8d9db;
+}
+
+.grey-button:hover{
+    background-color: white;
+}
+
+.half{
+    width: 204px;
+    height: 100px;
+}
+
+.quarter{
+    width: 100px;
+    height: 100px;
+}
+
+.three-quarter{
+    width: 308px;
+    height: 100px;
+}
